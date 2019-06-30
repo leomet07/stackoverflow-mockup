@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face {
+	font-family: Delicious;
+	font-family: 'Open Sans', sans-serif;
+	src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+
+body {
+	margin-top: 0%;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+header {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	margin-top: 0%;
+	height: 11vh;
+	align-items: center;
+	position: fixed;
+	background-color: white;
+}
+
+#company,
+.links {
+	display: flex;
+}
+.links {
+	flex: 2;
+	justify-content: space-around;
+	list-style: none;
+}
+#company {
+	justify-content: space-around;
+	flex: 1;
+}
+
+h2 {
+	font-weight: 300;
+}
+h3 {
+	font-weight: 300;
+}
+p {
+	font-weight: 300;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.post {
+	width: 85%;
+	margin: auto;
+	justify-content: space-between;
+}
+.code {
+	background-color: #eff0f1;
+	border: 1px solid #a0a6ac;
+	border-left: 10px solid #a0a6ac;
+	padding: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13.5px;
+	width: 400px;
+	overflow: scroll;
+}
+.userdata {
+	display: flex;
+}
+.answertitle,
+.aboutuser {
+	display: flex;
+	flex: 1;
+}
+.answertitle {
+	align-items: justify-content;
+	justify-content: left;
+}
+.aboutuser {
+	align-items: justify-content;
+	justify-content: left;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: fixed;
+	margin-top: 20%;
+}
+#navbar ul {
+	list-style: none;
+	line-height: 38pt;
+}
+#navbar li {
+}
+#wrapper {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+}
+.answers {
+	margin-left: 10%;
+	margin-top: 10%;
+}
